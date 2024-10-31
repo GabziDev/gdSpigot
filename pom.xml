@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.spigotmc</groupId>
-    <artifactId>spigot</artifactId>
+    <artifactId>gdSpigot</artifactId>
     <packaging>jar</packaging>
     <version>1.8.8-R0.1-SNAPSHOT</version>
-    <name>Spigot</name>
+    <name>gdSpigot</name>
     <url>http://www.spigotmc.org</url>
 
     <properties>
@@ -19,13 +19,6 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
-
-    <parent>
-        <groupId>org.spigotmc</groupId>
-        <artifactId>spigot-parent</artifactId>
-        <version>dev-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
 
     <dependencies>
         <dependency>
